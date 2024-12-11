@@ -1,0 +1,8 @@
+[build]
+  publish = "Login"        # Carpeta que contiene index.html
+  command = ""             # No hay comando de compilación (si no usas React, Vue, etc.)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
